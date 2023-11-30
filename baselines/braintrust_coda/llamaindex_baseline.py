@@ -5,12 +5,11 @@ from llama_index.llama_dataset import download_llama_dataset
 from llama_index.llama_pack import download_llama_pack
 from llama_index import VectorStoreIndex
 
-
 nest_asyncio.apply()
 
 # DOWNLOAD LLAMADATASET
 rag_dataset, documents = download_llama_dataset(
-   "PaulGrahamEssayDataset", "./paul_graham"
+   "BraintrustCodaDataset", "./paul_graham"
 )
 
 # BUILD BASIC RAG PIPELINE
