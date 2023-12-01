@@ -2,25 +2,21 @@
   "PaulGrahamEssayDataset": {
     "id": "llama_datasets/paul_graham_essay",
     "author": "andrei-fajardo",
-    "keywords": ["rag"],
-    "extra_files": []
+    "keywords": ["rag"]
   },
   "BraintrustCodaHelpDeskDataset": {
     "id": "llama_datasets/braintrust_coda",
     "author": "kenny-wong",
-    "keywords": ["rag"],
-    "extra_files": []
+    "keywords": ["rag"]
   },
   "PatronusAIFinanceBenchDataset": {
     "id": "llama_datasets/patronus_financebench",
     "author": "anand",
-    "keywords": ["rag"],
-    "extra_files": []
+    "keywords": ["rag"]
   },
   "MiniTruthfulQA": {
     "id": "llama_datasets/mini_truthfulqa",
     "author": "andrei-fajardo",
-    "keywords": ["rag"],
-    "extra_files": []
+    "keywords": ["rag"]
   }
 }
