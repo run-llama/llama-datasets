@@ -41,7 +41,10 @@ set GIT_LFS_SKIP_SMUDGE=1
 git clone https://github.com/<your-github-user-name>/llama-datasets.git  # for https
 ```
 
-The high-level steps for adding a llama-dataset are as follows:
+To submit a llama-dataset, follow the [submission template
+notebook](https://github.com/run-llama/llama_index/blob/main/docs/examples/llama_dataset/ragdataset_submission_template.ipynb).
+
+The high-level steps are:
 
 1. Create a `LabelledRagDataset` (the initial class of llama-dataset made available on llama-hub)
 2. Generate a baseline result with a RAG system of your own choosing on the
@@ -49,10 +52,6 @@ The high-level steps for adding a llama-dataset are as follows:
 3. Prepare the dataset's metadata (`card.json` and `README.md`)
 4. Submit a Pull Request to this repo to check in the metadata
 5. Submit a Pull Request to the [llama-datasets repository](https://github.com/run-llama/llama-datasets) to check in the `LabelledRagDataset` and the source files
-
-To assist with the submission process, we have prepared a [submission template
-notebook](https://github.com/run-llama/llama_index/blob/nerdai/add_template_nb/docs/examples/llama_dataset/ragdataset_submission_template.ipynb) that walks you through the above-listed steps. We highly recommend
-that you use this template notebook.
 
 ## Usage Pattern
 
