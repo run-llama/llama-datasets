@@ -15,6 +15,7 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.epub filter=lfs diff=lfs merge=lfs -text
 *.mbox filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
 llama_datasets/patronus_financebench/resources/*.json -filter=lfs -diff=lfs -merge=lfs -text
 README.md !filter !diff !merge text
 card.json !filter !diff !merge text
