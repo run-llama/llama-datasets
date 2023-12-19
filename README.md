@@ -53,7 +53,17 @@ The high-level steps are:
 4. Submit a Pull Request to this repo to check in the metadata
 5. Submit a Pull Request to the [llama-datasets repository](https://github.com/run-llama/llama-datasets) to check in the `LabelledRagDataset` and the source files
 
+(NOTE: you can use the above process for submitting any of our other supported
+types of llama-datasets such as the `LabelledEvaluatorDataset`.)
+
 ## Usage Pattern
+
+(NOTE: in what follows we present the pattern for producing a RAG benchmark with
+the `RagEvaluatorPack` over a `LabelledRagDataset`. However, there are also other
+types of llama-datasets such as `LabelledEvaluatorDataset` and corresponding llama-packs
+for producing benchmarks on their respective tasks. They all follow the similar
+usage pattern. Please refer to the README's to learn more on each type of
+llama-dataset.)
 
 As mentioned earlier, llama-datasets are mainly used for evaluating RAG systems.
 To perform the evaluation, the recommended usage pattern involves the application of the
