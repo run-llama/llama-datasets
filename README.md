@@ -3,7 +3,7 @@
 This repo is a companion repo to the [llama-hub repo](https://github.com/run-llama/llama-hub)
 meant to be the actual storage of data files associated to a llama-dataset. Like
 tools, loaders, and llama-packs, llama-datasets are offered through llama-hub. You
-can view all of the available llama-hub artifacts conviently in the llama-hub
+can view all of the available llama-hub artifacts conveniently in the llama-hub
 [website](https://llamahub.ai).
 
 The primary use of a llama-dataset is for evaluating the performance of a RAG system.
